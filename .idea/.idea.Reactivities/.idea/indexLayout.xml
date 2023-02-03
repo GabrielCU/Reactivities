@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="UserContentModel">
-    <attachedFolders />
-    <explicitIncludes />
-    <explicitExcludes />
+    <attachedFolders>
+      <Path>client-app</Path>
+    </attachedFolders>
+    <explicitIncludes>
+      <Path>.git</Path>
+      <Path>.gitignore</Path>
+      <Path>.vscode</Path>
+      <Path>API/bin</Path>
+      <Path>README.md</Path>
+      <Path>client-app</Path>
+    </explicitIncludes>
+    <explicitExcludes>
+      <Path>.idea</Path>
+    </explicitExcludes>
   </component>
 </project>
