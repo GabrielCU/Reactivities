@@ -5,21 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58332c76-0bf4-44af-af36-5570f3bbb8fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/client-app/src/app/router/Routes.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/features/home/HomePage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-app/src/features/activities/dashboard/ActivityFilters.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-app/src/features/activities/dashboard/ActivityListItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-app/src/features/activities/details/ActivityDetailedChat.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-app/src/features/activities/details/ActivityDetailedHeader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-app/src/features/activities/details/ActivityDetailedInfo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-app/src/features/activities/details/ActivityDetailedSidebar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/reactivities.db" beforeDir="false" afterPath="$PROJECT_DIR$/API/reactivities.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/reactivities.db-shm" beforeDir="false" afterPath="$PROJECT_DIR$/API/reactivities.db-shm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/reactivities.db-wal" beforeDir="false" afterPath="$PROJECT_DIR$/API/reactivities.db-wal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/app/layout/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/layout/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/app/layout/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/layout/navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/app/layout/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/layout/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-app/src/app/stores/activityStore.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/stores/activityStore.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-app/src/features/activities/dashboard/ActivityDashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/activities/dashboard/ActivityDashboard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-app/src/features/activities/dashboard/ActivityList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/activities/dashboard/ActivityList.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-app/src/features/activities/details/ActivityDetails.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/activities/details/ActivityDetails.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/features/activities/form/AcitivityForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/activities/form/AcitivityForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/features/home/HomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/home/HomePage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-app/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,6 +116,7 @@
       <workItem from="1675465557684" duration="403000" />
       <workItem from="1675468036835" duration="1343000" />
       <workItem from="1675555149386" duration="3352000" />
+      <workItem from="1675567069128" duration="3852000" />
     </task>
     <servers />
   </component>
