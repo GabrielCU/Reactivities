@@ -5,15 +5,14 @@
       <Path>client-app</Path>
     </attachedFolders>
     <explicitIncludes>
-      <Path>.git</Path>
       <Path>.gitignore</Path>
-      <Path>.vscode</Path>
-      <Path>API/bin</Path>
       <Path>README.md</Path>
       <Path>client-app</Path>
     </explicitIncludes>
     <explicitExcludes>
       <Path>.idea</Path>
+      <Path>API/reactivities.db-shm</Path>
+      <Path>API/reactivities.db-wal</Path>
     </explicitExcludes>
   </component>
 </project>

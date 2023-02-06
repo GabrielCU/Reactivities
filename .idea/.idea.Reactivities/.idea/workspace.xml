@@ -5,22 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58332c76-0bf4-44af-af36-5570f3bbb8fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/client-app/src/features/activities/dashboard/ActivityFilters.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/features/activities/dashboard/ActivityListItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/features/activities/details/ActivityDetailedChat.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/features/activities/details/ActivityDetailedHeader.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/features/activities/details/ActivityDetailedInfo.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client-app/src/features/activities/details/ActivityDetailedSidebar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/Controllers/BuggyController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/Middleware/ExceptionMiddleware.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Activities/ActivityValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Core/AppException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/Core/Result.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-app/src/app/models/serverError.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-app/src/app/stores/commonStore.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-app/src/features/errors/NotFound.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-app/src/features/errors/ServerError.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-app/src/features/errors/TestError.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-app/src/features/errors/ValidationError.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Reactivities/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Controllers/ActivitiesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/ActivitiesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Controllers/BaseApiController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Controllers/BaseApiController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Extensions/ApplicationServiceExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Extensions/ApplicationServiceExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API/reactivities.db" beforeDir="false" afterPath="$PROJECT_DIR$/API/reactivities.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Acitivities/Create.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Activities/Create.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Acitivities/Delete.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Activities/Delete.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Acitivities/Details.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Activities/Details.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Acitivities/Edit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Activities/Edit.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Acitivities/List.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Activities/List.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Activity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Activity.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/app/layout/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/layout/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/app/stores/activityStore.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/stores/activityStore.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/features/activities/dashboard/ActivityDashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/activities/dashboard/ActivityDashboard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/features/activities/dashboard/ActivityList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/activities/dashboard/ActivityList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/features/activities/details/ActivityDetails.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/activities/details/ActivityDetails.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/features/home/HomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/features/home/HomePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/app/API/agent.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/API/agent.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/app/layout/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/layout/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/app/layout/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/layout/navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/app/router/Routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/router/Routes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client-app/src/app/stores/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/app/stores/store.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client-app/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,22 +76,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.jsonOptions&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;F:\\dev\\Personal\\WebDevCourse\\Reactivities\\client-app\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.gutterIcons",
+    "ts.external.directory.path": "F:\\dev\\Personal\\WebDevCourse\\Reactivities\\client-app\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\gaboc\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\gaboc\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\gaboc\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\gaboc\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\gaboc\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\gaboc\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="API: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/API/API.csproj" />
@@ -117,6 +133,7 @@
       <workItem from="1675468036835" duration="1343000" />
       <workItem from="1675555149386" duration="3352000" />
       <workItem from="1675567069128" duration="3852000" />
+      <workItem from="1675653377377" duration="9902000" />
     </task>
     <servers />
   </component>
@@ -139,6 +156,31 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/client-app/src/app/stores/activityStore.ts</url>
+          <line>12</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/API/Extensions/ApplicationServiceExtensions.cs</url>
+          <line>32</line>
+          <properties documentPath="F:\dev\Personal\WebDevCourse\Reactivities\API\Extensions\ApplicationServiceExtensions.cs" initialLine="32" containingFunctionPresentation="lambda expression inside method 'AddApplicationServices'">
+            <startOffsets>
+              <option value="1105" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1106" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
